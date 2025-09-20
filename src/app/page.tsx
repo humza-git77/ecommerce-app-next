@@ -1,9 +1,10 @@
 import EcommerceWireframe from "@/components/EcommerceWireframe";
+import HomePage from "@/components/home";
 
-export default function HomePage() {
+export default function Page() {
   return (
     <main>
-      <EcommerceWireframe />
+      <HomePage/>
     </main>
   );
 }
